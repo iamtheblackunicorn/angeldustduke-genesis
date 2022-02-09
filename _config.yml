@@ -1,0 +1,41 @@
+analyticsID: ""
+year: "2022"
+name: "Angeldust Duke"
+owner: "Alexander Abraham"
+menuText: "Menu"
+url: ""
+baseurl: ""
+avatar: ""
+postsExist: false
+closeText: "Close"
+readPostText: "Read"
+noPostText: "Regrettably, there are no posts yet! Check back regularly and visit the link below to stay tuned!"
+noPostTitle: "No posts yet!"
+noPostUrl: "https://twitter.com/angeldustduke"
+viewNoPostUrl: "Visit"
+keywords: "developer, code, flutter, dart, rust lang, blogging, art, python, compiler"
+iconsPresent: false
+iconUrlIsAbsolute: true
+57x57: ""
+60x60: ""
+72x72: ""
+76x76: ""
+114x114: ""
+120x120: ""
+144x144: ""
+152x152: ""
+180x180: ""
+192x192: ""
+32x32: ""
+96x96: ""
+16x16: ""
+siteManifest: ""
+144x144: ""
+description: "Angeldust Duke: a bad b*tch, a creative soul, and eccentric as f*ck."
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - sassc

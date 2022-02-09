@@ -1,0 +1,44 @@
+/*
+ANGELDUSTDUKE by Alexander Abraham, "The Black Unicorn".
+Licensed under the MIT license.
+*/
+@media screen and (max-width: 800px) {
+  img.profile_pic {
+    width: 150px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  button.nav {
+    font-size: 25px;
+  }
+  div.nav {
+    width: 90vw;
+  }
+  a.nav {
+    font-size: 20px;
+  }
+  div.content {
+    width: 90vw;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 20px;
+  }
+  hr.divider {
+    height: 3px;
+  }
+  a {
+    font-size: 20px;
+  }
+  p.footer {
+    font-size: 25px;
+  }
+  button.nav {
+    width: 90vw;
+  }
+}
