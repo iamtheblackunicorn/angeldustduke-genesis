@@ -41,6 +41,7 @@
  {% else %}
  {% endif %}
  {% if page.layoutType == 'post' %}
+ {% if page.banner %}
  <meta name="twitter:card" content="summary_large_image">
  <meta name="twitter:image:alt" content="{{ page.bannerDescription }}">
  <meta name="twitter:title" content="{{ page.title }}">
@@ -58,6 +59,8 @@
   <meta property="og:image:type" content="image/jpg">
  {% endif %}
  {% else %}
+ {% else %}
+ {% endif %}
  {% endif %}
 
  <meta name="viewport" content="width=device-width, initial-scale=1"/>

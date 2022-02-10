@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html>
-
  {% include head.html %}
-
  <body>
-
   {% include heading.html %}
-
   {% include nav.html %}
-
   {% if site.postsExist == true %}
    {% for post in site.posts %}
     <div class="content">
@@ -33,35 +28,7 @@
     <a href="{{ site.noPostUrl }}">{{ site.viewNoPostUrl }}</a>
    </p>
   </div>
-
-  <div class="content">
-   <h2>{{ site.noPostTitle }}</h2>
-   <p>
-    {{ site.noPostText }}
-   </p>
-   <hr class="divider"/>
-   <p>
-    <a href="{{ site.noPostUrl }}">{{ site.viewNoPostUrl }}</a>
-   </p>
-  </div>
-
-  <div class="content">
-   <h2>{{ site.noPostTitle }}</h2>
-   <p>
-    {{ site.noPostText }}
-   </p>
-   <hr class="divider"/>
-   <p>
-    <a href="{{ site.noPostUrl }}">{{ site.viewNoPostUrl }}</a>
-   </p>
-  </div>
-
   {% endif %}
-
-  {% include footer.html %}
-
   {% include javascript.html %}
-
  </body>
-
 </html>

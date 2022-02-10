@@ -1,0 +1,10 @@
+---
+layout: page
+layoutType: "post"
+description: "Welcome to the Angeldust Duke's abode! A short post explaining what this whole thing is for. ;)"
+title: "Welcome!"
+---
+
+## Welcome!
+
+Hi! I'm really stoked to have you here! Welcome to the Angeldust Duke's website. I will be filling this website as time goes along and when I have some *worth-while* thoughts to share. I do not believe in cluttering up the interwebs with some banal and boring content. If you would like to stay tuned, follow me on Twitter [@angeldustduke](https://twitter.com/angeldustduke). For now this is all you need know: I am a bad b\*tch, a creative soul, eccentric as f\*ck, I write code, short stories, and make some extra-ass art.

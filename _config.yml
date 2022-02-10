@@ -6,7 +6,7 @@ menuText: "Menu"
 url: ""
 baseurl: ""
 avatar: ""
-postsExist: false
+postsExist: true
 closeText: "Close"
 readPostText: "Read"
 noPostText: "Regrettably, there are no posts yet! Check back regularly and visit the link below to stay tuned!"
@@ -32,6 +32,8 @@ iconUrlIsAbsolute: true
 siteManifest: ""
 144x144: ""
 description: "Angeldust Duke: a bad b*tch, a creative soul, and eccentric as f*ck."
+feed:
+  path: "rss.xml"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
