@@ -10,7 +10,7 @@ Welcome to the Angeldust Duke's website. I will be filling this website as time 
 
 ## Features :test_tube:
 
-- SEO
+- SEO.
 - Optimized for mobile and desktop devices.
 - Modern, minimalistic design.
 - Extensively customizable.
@@ -33,7 +33,7 @@ If you want to use this theme for your own site, here's what you need to do.
   - Jekyll for Ruby.
   - Bundler for Ruby.
   - A GitHub account with an access token. (Google it if you do not know how to acquire this.)
-  - Git for your platform
+  - Git for your platform.
   - CMake (Optional.)
   - Half an hour.
 - 2.) Fetch this website's source code:
