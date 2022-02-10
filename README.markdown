@@ -6,7 +6,16 @@
 
 ## About :books:
 
-Welcome to the AngelDust Duke's website. I will be filling this website as time goes along. For now this is all you need know: Mr. Angeldust Duke is: a bad b\*tch, a creative soul, and eccentric as f\*ck. This website is one of many experiments, enjoy! :)
+Welcome to the Angeldust Duke's website. I will be filling this website as time goes along. For now this is all you need know: Mr. Angeldust Duke is: a bad b\*tch, a creative soul, and eccentric as f\*ck. This website is one of many experiments, enjoy! :)
+
+## Features :test_tube:
+
+- SEO
+- Optimized for mobile and desktop devices.
+- Modern, minimalistic design.
+- Extensively customizable.
+- An RSS feed.
+- Optimized for search engines and back-linking.
 
 ## Usage :books:
 
@@ -55,7 +64,7 @@ $ bundle exec jekyll serve # Or bundle exec jekyll build
     - `postsExist`: Set this to `true` or `false` depending on wheter your site has posts or not.
     - `closeText`: Text for the link to close the navigation menu.
     - `readPostText`: Link text for reading posts for the `blog` layout.
-    - `noPostText`: Description of wh your site doesn't have any posts.
+    - `noPostText`: Description of why your site doesn't have any posts.
     - `noPostTitle`: What to display if your site doesn't have any posts.
     - `noPostUrl`: Link for redirecting users to a link if your site doesn't have any posts.
     - `viewNoPostUrl`: Text to display on the link for redirecting users to a link if your site doesn't have any posts.
