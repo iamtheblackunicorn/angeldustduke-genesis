@@ -5,7 +5,7 @@ owner: "Alexander Abraham"
 menuText: "Menu"
 url: ""
 baseurl: ""
-avatar: ""
+avatar: "/assets/images/diavorella.svg"
 postsExist: true
 closeText: "Close"
 readPostText: "Read"
