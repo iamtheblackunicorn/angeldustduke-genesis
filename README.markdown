@@ -20,6 +20,7 @@ Welcome to the Angeldust Duke's website. I will be filling this website as time 
 - Extensively customizable.
 - An RSS feed.
 - Optimized for search engines and back-linking.
+- Extensive support for posting links on social media platforms.
 
 ## Usage :books:
 
