@@ -60,6 +60,8 @@ $ bundle exec jekyll serve # Or bundle exec jekyll build
   - You can change the colors and fonts here: `_sass/angeldustduke/_variables.scss`.
   - You can change the site's base configuration by reading the file called `_config.yml`. Here's a list of all variables and what they do:
     - `analyticsID`: Google Analytics ID, if you want to track the site's usage.
+    - `bannerDescription`: The description of your site's banner. (This will appear on social media.)
+    - `banner`: Your site's banner. This *has* to be fetched from a third-party server and *has* to be a `PNG`, otherwise your site might break.
     - `year`: The current year.
     - `name`: Your site's name.
     - `owner`: Your name.

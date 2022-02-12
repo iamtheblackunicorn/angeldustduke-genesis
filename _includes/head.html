@@ -40,29 +40,13 @@
  {% endif %}
  {% else %}
  {% endif %}
- {% if page.layoutType == 'post' %}
- {% if page.banner %}
  <meta name="twitter:card" content="summary_large_image">
- <meta name="twitter:image:alt" content="{{ page.bannerDescription }}">
- <meta name="twitter:title" content="{{ page.title }}">
- <meta name="twitter:description" content="{{ page.description }}">
- {% if page.bannerUrlIsAbsolute == true %}
-  <meta property="og:image" content="{{ page.banner }}">
-  <meta name="twitter:image" content="{{ page.banner }}">
- {% else %}
-   <meta property="og:image" content="{{ page.banner | prepend: site.baseurl }}">
-   <meta name="twitter:image" content="{{ page.banner | prepend: site.baseurl }}">
- {% endif %}
- {% if page.bannerType == 'png' %}
-   <meta property="og:image:type" content="image/png">
- {% else %}
-  <meta property="og:image:type" content="image/jpg">
- {% endif %}
- {% else %}
- {% else %}
- {% endif %}
- {% endif %}
-
+ <meta name="twitter:image:alt" content="{{ site.bannerDescription }}">
+ <meta name="twitter:title" content="{{ site.name }}">
+ <meta name="twitter:description" content="{{ site.description }}">
+ <meta property="og:image" content="{{ site.banner }}">
+ <meta name="twitter:image" content="{{ site.banner }}">
+ <meta property="og:image:type" content="image/png">
  <meta name="viewport" content="width=device-width, initial-scale=1"/>
  <link rel="stylesheet" type="text/css" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}"/>
  {% seo %}

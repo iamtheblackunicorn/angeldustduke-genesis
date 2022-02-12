@@ -6,6 +6,8 @@ menuText: "Menu"
 url: ""
 baseurl: ""
 avatar: "/assets/images/logo/logo.png"
+bannerDescription: "Diavorella, the Angeldust Duke's muse."
+banner: "https://angeldustduke.art/assets/images/banner/banner.png"
 postsExist: true
 closeText: "Close"
 readPostText: "Read"

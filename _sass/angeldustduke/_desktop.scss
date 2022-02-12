@@ -16,16 +16,12 @@ html,body {
   box-sizing: border-box;
   overflow: scroll;
   min-height: 100%;
-  background: repeating-linear-gradient(
-    45deg,
-    $waveColorOne,
-    $waveColorOne 10px,
-    $waveColorTwo 10px,
-    $waveColorTwo 20px
-  );
+  background-color: $waveColorOne;
 }
 img.profile_pic {
   width: 250px;
+  height: 250px;
+  border: 2px solid $waveColorTwo;
   display: block;
   margin: 0 auto;
   margin-top: 30px;
