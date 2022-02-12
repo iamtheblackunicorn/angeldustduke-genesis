@@ -1,3 +1,7 @@
+<p align="center">
+ <img src="https://angeldustduke.art/assets/images/banner/banner.png"/>
+</p>
+
 # Angeldust Duke :unicorn: :fire: :pill:
 
 ***Angeldust Duke: a bad b\*tch, a creative soul, and eccentric as f\*ck. :unicorn: :fire: :pill:***
