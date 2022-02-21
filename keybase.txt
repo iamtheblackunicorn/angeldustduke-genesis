@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/angeldustduke
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://angeldustduke.art
+  * I am angeldustduke (https://keybase.io/angeldustduke) on keybase.
+  * I have a public key ASBkuU5Nh2MPA09U37OEl3P04H4gx1klQ3B-qQeSFOfv8go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012064b94e4d87630f034f54dfb3849773f4e07e20c7592543707ea9079214e7eff20a",
+      "host": "keybase.io",
+      "kid": "012064b94e4d87630f034f54dfb3849773f4e07e20c7592543707ea9079214e7eff20a",
+      "uid": "9fba8b96c3a9f3bf6739861e57f70c19",
+      "username": "angeldustduke"
+    },
+    "merkle_root": {
+      "ctime": 1645459639,
+      "hash": "a346945f89e8ed9fd5a2bccdfdfb4d6c18e89acf23f620cec31c41ec8996664c8018a47eb63693278a720aa2905ca8d5866577d66bfe5a21e0403a820aae11e1",
+      "hash_meta": "7637f2693c7d63798506bb3f92bdafd7ecba331a29269fad24658b2dc9b94c38",
+      "seqno": 21922017
+    },
+    "service": {
+      "entropy": "anEw4CSC7HLp6tnsxjLt0sDS",
+      "hostname": "angeldustduke.art",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.9.0"
+  },
+  "ctime": 1645459679,
+  "expire_in": 504576000,
+  "prev": "a3900b03f81fb98b7e1166d4a1bae3e428e1a6fc6d978194b42fcfc295b2d733",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgZLlOTYdjDwNPVN+zhJdz9OB+IMdZJUNwfqkHkhTn7/IKp3BheWxvYWTESpcCCcQgo5ALA/gfuYt+EWbUobrj5Cjhpvxtl4GUtC/PwpWy1zPEIJp+4JfR9DJjy3zhGolr0V0BNtO+xn6HRLx6C1va7HsOAgHCo3NpZ8RAJjaHA9m3Z/FGhx7nyj/Ig49u3RHDDKfFuIMWArPWUtti6FdmsyLkXTS1Xn7X7PWhdQhnUaVwBA7ATvE14xhQCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPgxTFnpviakyEJgtQXIMTcjpltw1eY+GoCcbKysoslKo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/angeldustduke
+
+==================================================================
