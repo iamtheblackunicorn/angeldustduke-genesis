@@ -97,7 +97,7 @@ $ bundle exec jekyll serve # Or bundle exec jekyll build
     - `description`: Your site's description. What is your site about?
 
   - You can configure all posts as you see fit. Each post has the following variables that you can customize.
-    - `layout`: Which layout you want to use for this post. `layout` has two possible configurations: `page` or `blog`. This *has* to be set. We recommend that you use the `page` layout.
+    - `layout`: Which layout you want to use for this post. `layout` has three possible configurations: `page`, `blog`, or `post`. This *has* to be set. We recommend that you use the `post` layout for posts. To see how the `page` layout os used, look at the standard [404 page](404.markdown).
     - `title`: The title of your post.
     - `description`: A short description of your post.
     - `layoutType`: What type of layout are you using for what? Populate this with `post`.
