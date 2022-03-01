@@ -30,4 +30,65 @@ p.footer {
   padding-top: 20px;
   padding-bottom: 20px;
   color: $mainColor;
-}*/
+}
+<script asnyc src="{{ '/assets/js/copy.js' | prepend: site.baseurl }}"></script>
+div.copyLink {
+  background-color: #122335;
+  width: 92%;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow-x: scroll;
+  text-align: left;
+}
+p.articleLink {
+  color: #FFFFFF;
+  font-size: 22px;
+  font-family: monospace;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline-block;
+}
+a.copyButton {
+  float: right;
+  font-family: monospace;
+  display: inline-block;
+  font-size: 22px;
+  padding: 0px;
+  margin: 0px;
+  color: #FFFFFF;
+  transition-duration: 0.6s;
+}
+a.copyButton:hover {
+  color: #DF0045;
+}
+span.subtitle {
+  font-size: 17px;
+}
+div.copyLink {
+  width: 86%;
+}
+p.articleLink {
+  font-size: 17px;
+}
+a.copyButton {
+  font-size: 17px;
+}
+<div class="copyLink">
+ <p class="articleLink" id="link">
+  {{ page.url }}
+ </p>
+ <a class="copyButton" href="javascript:void(0);" onclick="copyValue('link');">Copy</a>
+</div>
+</div>
+function copyValue(elemID){
+  //window.clipboardData.clearData();
+  window.clipboardData.setData('', document.getElementById(elemID).value);
+  console.log(window.clipboardData);
+}
+*/

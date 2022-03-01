@@ -63,6 +63,7 @@ $ bundle exec jekyll serve # Or bundle exec jekyll build
     - `analyticsID`: Google Analytics ID, if you want to track the site's usage.
     - `bannerDescription`: The description of your site's banner. (This will appear on social media.)
     - `banner`: Your site's banner. This *has* to be fetched from a third-party server and *has* to be a `PNG`, otherwise your site might break.
+    - `postedOnText`: Text to put below a post's title to tell readers when this post was updated last.
     - `year`: The current year.
     - `name`: Your site's name.
     - `owner`: Your name.
@@ -101,6 +102,7 @@ $ bundle exec jekyll serve # Or bundle exec jekyll build
     - `description`: A short description of your post.
     - `layoutType`: What type of layout are you using for what? Populate this with `post`.
     - `banner`: Does your post have a cover image?
+    - `show`: Tells Jekyll whether to display your post on the front page or not.
     - `bannerType`: What file type is your cover image? `png` or `jpg`?
     - `bannerUrlIsAbsolute`: Are you fetching the cover image from a third-party server? Set this to `true` or `false`.
     - Finally: You make a new post like this:
@@ -111,7 +113,7 @@ $ bundle exec jekyll serve # Or bundle exec jekyll build
       layout: "page"
       title: My first post!
       description: An awesome sample post.
-      layoutType: "post"
+      show: true
       banner: "https://example.com/some_image.png"
       bannerType: "png"
       bannerUrlIsAbsolute: true
