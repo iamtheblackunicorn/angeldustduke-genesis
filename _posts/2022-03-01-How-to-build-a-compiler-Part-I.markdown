@@ -122,6 +122,6 @@ I'm only vaguely going to go through the implementation here and I'm sure it isn
 For my implementation of the lexer, I used regular expressions (A language for defining patterns.) and unfortunately had to import a third-party library (A bunch of code that somebody else wrote and has made available to the public.) for this because Rust doesn't have this out of the box.
 If you couldn't understand the code above, that is fine, I hope, however, that I satisfied your curiosity to some degree. For all you coders out there, I hope you had fun reading and maybe you build your own languages now or at least start. If you would like to support me, share this article and follow me on [Twitter](https://twitter.com/angeldustduke)! If you want to buy me a coffee, feel free to send me some Ethereum tokens to the address here: [My address](0x5d7551C484bCd8769c57B4921a3FC80193b74Ce3).
 
-You can also read this article on my Hashnode blog [here](https://angeldustduke.hashnode.dev/how-to-build-a-compiler-part-i) or read a pleasant short story on my main blog [here](https://blckunicorn.art/).
+You can also read this article on my Hashnode blog [here](https://angeldustduke.hashnode.dev/how-to-build-a-compiler-part-i) or read a pleasant short story on my main blog [here](https://blckunicorn.art/). ***Sundance***'s code is available [here](https://github.com/iamtheblackunicorn/sundance) and you can check out my GitHub profile [here](https://github.com/iamtheblackunicorn).
 
 All that being said, take care of yourselves, have a wonderful day and I hope to see you again soon.
