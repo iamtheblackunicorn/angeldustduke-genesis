@@ -121,7 +121,7 @@ div.nav {
   margin-top: 0px;
   margin-bottom: 0px;
   background-color: $accentColor;
-  width: 70vw;
+  width: 73vw;
 }
 ul.nav {
   list-style: none;
@@ -137,6 +137,11 @@ li.nav {
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 0;
+  font-family: $contentFont;
+  font-size: 25px;
+  padding-left: 5px;
+  padding-right: 0px;
+  text-align: center;
 }
 a.nav {
   font-family: $contentFont;
