@@ -66,6 +66,7 @@ Configure your site by putting the following into your "config.json" file:
 The "layouts" folder that you created previously has our site's layouts in it. Our layouts are HTML files with Liquid variables and tags in them that allow us to recursively replace these variables with certain values. These values are supplied by our Markdown files and our configuration file. In the "layouts" directory, create a new file called "blog.html" and fill it with the following code:
 
 ```Liquid
+{% raw %}
 <!DOCTYPE html>
 <html>
 
@@ -90,6 +91,7 @@ The "layouts" folder that you created previously has our site's layouts in it. O
  </body>
 
 </html>
+{% endraw %}
 ```
 
 A quick exaplanation: In the stylesheet link, we insert the link to our stylesheet and prepend that with our site's "baseurl".
@@ -100,6 +102,7 @@ In the "body" section, we iterate over our site's posts, saved in the "posts" va
 The next layout we will create is the "post" layout. This layout will allow visitors of the site to read our posts in full length. Create a new file called "post.html" and fill it with this code:
 
 ```Liquid
+{% raw %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -118,6 +121,7 @@ The next layout we will create is the "post" layout. This layout will allow visi
  
  </body>
 </html>
+{% endraw %}
 ```
 
 The "head" section is the same as before. The "body" section displays our "page's" content (This is actually our post's content.) and the site's title.
