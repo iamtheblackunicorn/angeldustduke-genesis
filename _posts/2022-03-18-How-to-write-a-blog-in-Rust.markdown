@@ -66,7 +66,30 @@ Configure your site by putting the following into your "config.json" file:
 The "layouts" folder that you created previously has our site's layouts in it. Our layouts are HTML files with Liquid variables and tags in them that allow us to recursively replace these variables with certain values. These values are supplied by our Markdown files and our configuration file. In the "layouts" directory, create a new file called "blog.html" and fill it with the following code:
 
 ```Liquid
+<!DOCTYPE html>
+<html>
 
+ <head>
+  <link rel="stylesheet" href="{{ 'assets/css/styles.css' | prepend: site.baseurl }}"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ site.description }}"/>
+  <title>{{ site.title }}</title>
+ </head>
+
+ <body>
+
+ <h1>{{ site.title }}</h1>
+ <p class="subtitle">{{ site.description }}</p>
+  {% for post in posts %}
+   <div class="content">
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.description }}</p>
+    <p><a href="{{ post.url }}">READ ME</a></p>
+   </div>
+  {% endfor %}
+ </body>
+
+</html>
 ```
 
 A quick exaplanation: In the stylesheet link, we insert the link to our stylesheet and prepend that with our site's "baseurl".
@@ -77,7 +100,24 @@ In the "body" section, we iterate over our site's posts, saved in the "posts" va
 The next layout we will create is the "post" layout. This layout will allow visitors of the site to read our posts in full length. Create a new file called "post.html" and fill it with this code:
 
 ```Liquid
-
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="{{ 'assets/css/styles.css' | prepend: site.baseurl }}"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="{{ site.description }}"/>
+ <title>{{ site.title }}</title>
+</head>
+  
+ <body>
+ <h1>{{ site.title }}</h1>
+ <p class="subtitle">{{ site.description }}</p>
+ <div class="content">
+  {{ page.content }}
+ </div>
+ 
+ </body>
+</html>
 ```
 
 The "head" section is the same as before. The "body" section displays our "page's" content (This is actually our post's content.) and the site's title.
