@@ -17,7 +17,7 @@ This post will be a quick getting-started guide for *Acid*.
 
 ## So! Let's get started!
 
-Because *Acid* is written in Rust, you will need the Rust toolchain installed and available from the command-line. To do this, visit [https://www.rust-lang.org/](https://www.rust-lang.org/). Once that is done, check if you have Git installed and available from the command-line.
+Because *Acid* is written in Rust, you will need the Rust toolchain installed and available from the command line. To do this, visit [https://www.rust-lang.org/](https://www.rust-lang.org/). Once that is done, check if you have Git installed and available from the command line.
 
 To run *Acid* on your own machine (I haven't uploaded *Acid* to [Crates.io](https://crates.io), Rust's package registry.) you will have to fetch *Acid's* source code from GitHub. This can be done with this command:
 
@@ -37,13 +37,13 @@ This will produce an executable in the following location:
 acid/target/release
 ```
 
-Copy this executable to a location you can access from the command-line easily and that is on your system's "$PATH".
+Copy this executable to a location you can access from the command line easily and that is on your system's "$PATH".
 
 ## Creating an *Acid* site.
 
 ### Creating the required files and directories.
 
-Fist, we need to configure our *Acid* site. To do this, create a new directory called "mysite". Inside this directory, create two files called "config.json" and "index.markdown", respectively. Next, create four directories: "pages", "posts", "layouts", and "assets".
+First, we need to configure our *Acid* site. To do this, create a new directory called "mysite". Inside this directory, create two files called "config.json" and "index.markdown", respectively. Next, create four directories: "pages", "posts", "layouts", and "assets".
 
 ### Configuring your site.
 
@@ -333,7 +333,7 @@ Great, now we can compile our site!
 
 ### Building our site!
 
-Assuming that you copied the *Acid* executable in such a way that is now available from the command-line, you can now run the following command in your site's root directory:
+Assuming that you copied the *Acid* executable in such a way that is now available from the command line, you can now run the following command in your site's root directory:
 
 ```bash
 $ acid build .
