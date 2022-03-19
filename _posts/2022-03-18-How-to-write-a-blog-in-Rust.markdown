@@ -17,27 +17,21 @@ This post will be a quick getting-started guide for *Acid*.
 
 ## So! Let's get started!
 
-Because *Acid* is written in Rust, you will need the Rust toolchain installed and available from the command line. To do this, visit [https://www.rust-lang.org/](https://www.rust-lang.org/). Once that is done, check if you have Git installed and available from the command line.
+Because *Acid* is written in Rust, you will need the Rust toolchain installed and available from the command line. To do this, visit [https://www.rust-lang.org/](https://www.rust-lang.org/) and install the Rust toolchain on your machine. Once that is done, check if you have Git installed and available from the command line.
 
-To run *Acid* on your own machine (I haven't uploaded *Acid* to [Crates.io](https://crates.io), Rust's package registry.) you will have to fetch *Acid's* source code from GitHub. This can be done with this command:
+To run *Acid* on your own machine, either install the latest cutting-edge release directly from GitHub or install the latest stable release from [Crates.io](https://crates.io/crates/acid-rs), Rust's package registry. 
 
-```bash
-$ git clone https://github.com/iamtheblackunicorn/acid.git
-```
-
-Once that is done, change directory into *Acid*'s source directory and run the following command to compile *Acid*. (This might take some time.)
+- Run the following command to install *Acid* from GitHub:
 
 ```bash
-$ cargo build --release
+$ cargo install --git https://github.com/iamtheblackunicorn/acid.git
 ```
 
-This will produce an executable in the following location:
+- Or install *Acid* from [Crates.io](https://crates.io/crates/acid-rs) with this command:
 
-```text
-acid/target/release
+```bash
+$ cargo install acid-rs
 ```
-
-Copy this executable to a location you can access from the command line easily and that is on your system's "$PATH".
 
 ## Creating an *Acid* site.
 
@@ -341,6 +335,6 @@ $ acid build .
 
 ## Final words
 
-*Acid* *is* missing some features that Jekyll provides such as themes and live-reloading your site. This is because the project is still under active development by myself and I am still looking for efficient options to maybe implement these features in future updates. If you would like to try out *Acid*, check out the project's repository on GitHub [here](https://github.com/iamtheblackunicorn/acid) or follow me on Twitter [here](https://twitter.com/angeldustduke). I would appreciate some stars on the project's GitHub repo and if you feel that you can help me make *Acid* better, please do not hesitate to contribute and file a Pull Request! If you would like to support me and buy me a coffee, send me some Ethereum tokens to [this address](0x5d7551C484bCd8769c57B4921a3FC80193b74Ce3). Finally, you can also read this post on my Hashnode blog [here](https://angeldustduke.hashnode.dev/how-to-create-a-supersonic-blog-in-a-flash).
+*Acid* *is* missing some features that Jekyll provides, such as themes and live-reloading your site. This is because the project is still under active development by myself and I am still looking for efficient options to maybe implement these features in future updates. If you would like to try out *Acid*, check out the project's repository on GitHub [here](https://github.com/iamtheblackunicorn/acid) or follow me on Twitter [here](https://twitter.com/angeldustduke). I would appreciate some stars on the project's GitHub repo and if you feel that you can help me make *Acid* better, please do not hesitate to contribute and file a Pull Request! If you would like to support me and buy me a coffee, send me some Ethereum tokens to [this address](0x5d7551C484bCd8769c57B4921a3FC80193b74Ce3). Finally, you can also read this post on my Hashnode blog [here](https://angeldustduke.hashnode.dev/how-to-create-a-supersonic-blog-in-a-flash).
 
 Finally, finally, I know I still need to complete the series on building a compiler, and I assure you, I am still working on the [Sundance project](), but I am kinda struggling with implementing an AST (The next component of the next episode in the series.).
