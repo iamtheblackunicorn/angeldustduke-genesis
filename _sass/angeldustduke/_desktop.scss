@@ -79,17 +79,18 @@ img.profile_pic {
   border-bottom-right-radius: 50%;
 }
 h1 {
-  font-size: 80px;
-  font-family: $headingFont;
+  font-size: 65px;
+  font-family: $mainHeadingFont;
   color: $mainColor;
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   padding-right: 0px;
   padding-left: 0px;
-  padding-top: 0px;
+  padding-top: 40px;
   margin: 0;
   text-transform: uppercase;
+  text-shadow: 2px 2px 2px $mainColor;
 }
 button.nav {
   margin-top: 10px;
