@@ -14,6 +14,7 @@ You can contact me on the following platforms:
 - [Read my Hashnode blog.](https://angeldustduke.hashnode.dev)
 - [My Instagram.](https://instagram.com/angeldustduke)
 - [Write me an E-Mail!](mailto:youreccentricity@outlook.com)
+- [My Discord Server (Join this server to chat or get to know new people.)](https://discord.gg/H3uF34dV)
 
 Or view my Twitter feed here, directly.
 
