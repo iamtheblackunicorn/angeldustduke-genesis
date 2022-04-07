@@ -3,7 +3,7 @@ layout: post
 date_time: "2022/04/06"
 description: "Blogging in Rust and why you should care using the Acid SSG. (Part I)"
 title: "Blogging with Acid Part I."
-show: false
+show: true
 isSpecial: true
 tags: "static-site-generator rust programming acid cms"
 ---
