@@ -4,6 +4,7 @@ date_time: "2022/02/19"
 description: "Musings on why money is intrinsically worthless and what the word \"fiat\" means."
 title: "Money is worthless!"
 show: true
+isSpecial: false
 tags: "crypto fiat money philosophy ethereum"
 ---
 

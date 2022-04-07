@@ -4,7 +4,8 @@ date_time: "2022/03/18"
 description: "How to write your blog in a fast and efficient language like Rust."
 title: "How to write a blog in Rust."
 show: true
-tags: "static-site-generator rust programming"
+isSpecial: false
+tags: "static-site-generator rust programming acid cms"
 ---
 
 ## Preamble
@@ -19,7 +20,7 @@ This post will be a quick getting-started guide for *Acid*.
 
 Because *Acid* is written in Rust, you will need the Rust toolchain installed and available from the command line. To do this, visit [https://www.rust-lang.org/](https://www.rust-lang.org/) and install the Rust toolchain on your machine. Once that is done, check if you have Git installed and available from the command line.
 
-To run *Acid* on your own machine, either install the latest cutting-edge release directly from GitHub or install the latest stable release from [Crates.io](https://crates.io/crates/acid-rs), Rust's package registry. 
+To run *Acid* on your own machine, either install the latest cutting-edge release directly from GitHub or install the latest stable release from [Crates.io](https://crates.io/crates/acid-rs), Rust's package registry.
 
 - Run the following command to install *Acid* from GitHub:
 

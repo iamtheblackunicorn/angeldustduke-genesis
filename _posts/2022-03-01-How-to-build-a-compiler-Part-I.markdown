@@ -4,6 +4,7 @@ date_time: "2022/03/01"
 description: "The first part of a series on how to build a compiler for your own programming language."
 title: "How to build a compiler: Part I"
 show: true
+isSpecial: false
 tags: "compiler rust programming"
 ---
 
