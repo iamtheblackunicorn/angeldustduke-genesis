@@ -14,7 +14,7 @@ This post is part of a special series of posts and is for a uni project. This po
 
 ## Introduction
 
-Hi! :) I'm glad you're here. If you've read my last post, you will know exactly what [Rust](https://www.rust-lang.org/), [Acid](https://blckunicorn.art/acid/), and [Blogging](https://dictionary.cambridge.org/de/worterbuch/englisch/blog) are. However, in this post I would like to introduce you to these three terms in such a way that you can understand each of them without any background in coding or programming.
+Hi! :) I'm glad you're here. If you've read my last post, you will know exactly what [Rust](https://www.rust-lang.org/), [Acid](https://blckunicorn.art/acid/), and [Blogging](https://dictionary.cambridge.org/de/worterbuch/englisch/blog) are. However, in this post I would like to introduce you to these three terms in such a way that you can understand each of them without any background in coding.
 
 ## What is "Blogging"?
 
