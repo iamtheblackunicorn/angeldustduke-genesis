@@ -5,6 +5,7 @@ owner: "Alexander Abraham"
 menuText: "Menu"
 url: ""
 baseurl: ""
+future: true
 specialEditonString: "SPECIAL EDITION"
 avatar: "/assets/images/logo/logo.png"
 bannerDescription: "Diavorella, the Angeldust Duke's muse."
