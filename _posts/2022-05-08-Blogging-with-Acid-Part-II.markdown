@@ -1,6 +1,6 @@
 ---
 layout: post
-date_time: "2022/05/06"
+date_time: "2022/05/08"
 description: "Blogging in Rust and why you should care using the Acid SSG. (Part II)"
 title: "Blogging with Acid Part II."
 show: false
@@ -10,7 +10,7 @@ tags: "static-site-generator rust programming acid cms"
 
 ## DISCLAIMER!!
 
-This post is part of a special series of posts and is for a uni project. This post is experimental.
+This post is part of a special series of posts, which are part of a uni project.
 
 ## Introduction
 

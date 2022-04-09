@@ -1,6 +1,6 @@
 ---
 layout: post
-date_time: "2022/06/06"
+date_time: "2022/06/08"
 description: "Blogging in Rust and why you should care. (Part III)"
 title: "Blogging with Acid Part III"
 show: false
