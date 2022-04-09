@@ -3,7 +3,7 @@ layout: post
 date_time: "2022/06/06"
 description: "Blogging in Rust and why you should care. (Part III)"
 title: "Blogging with Acid Part III"
-show: true
+show: false
 isSpecial: true
 tags: "static-site-generator rust programming"
 ---
