@@ -65,7 +65,6 @@ $ bundle exec jekyll serve # Or bundle exec jekyll build
     - `banner`: Your site's banner. This *has* to be fetched from a third-party server and *has* to be a `PNG`, otherwise your site might break.
     - `postedOnText`: Text to put below a post's title to tell readers when this post was updated last.
     - `year`: The current year.
-    - `copiedText`: Text that appears when the link to the post is copied.
     - `name`: Your site's name.
     - `owner`: Your name.
     - `menuText`: Text for the link to open the navigation menu.
