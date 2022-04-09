@@ -5,7 +5,7 @@ description: "How websites, computers, and blogs work, explained using some psyc
 title: "Blogging with Acid Part I."
 show: true
 isSpecial: true
-tags: "static-site-generator rust programming acid cms"
+tags: "static-site-generator rust programming acid cms psychedelics"
 ---
 
 ## DISCLAIMER!!
