@@ -33,7 +33,7 @@ Good, now we know how blogs work, how programming languages work, and how softwa
 ## Conclusion.
 
 So! Now you know, how the web works, what software is, what a programming language is, what Jekyll and Acid are, and finally what Markdown is! Not bad! Pat yourself on the shoulder. I hope this short post explains the whole process top to bottom and that maybe you learned something from this. If you would like to contact me or you have some feedback, feel free to DM me on [Twitter](https://twitter.com/angeldustduke). If you'd like to support me and buy me a coffee, you can send me some Ethereum tokens to [this address](0x5d7551C484bCd8769c57B4921a3FC80193b74Ce3
-)(You'll have to hover over the link and copy the ETH address.).
+) (You'll have to hover over the link and copy the ETH address.).
 
 ## Links
 
