@@ -3,7 +3,7 @@ layout: post
 date_time: "2022/06/08"
 description: "How websites, computers, and blogs work, explained using some psychedelics. (Part III)"
 title: "Blogging with Acid. (Part III)"
-show: true
+show: false
 isSpecial: true
 tags: "static-site-generator rust programming acid cms psychedelics"
 ---
