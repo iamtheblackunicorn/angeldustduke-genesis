@@ -3,7 +3,7 @@ layout: post
 date_time: "2022/05/08"
 description: "How websites, computers, and blogs work, explained using some psychedelics. (Part II)"
 title: "Blogging with Acid Part II."
-show: true
+show: false
 isSpecial: true
 tags: "static-site-generator rust programming acid cms psychedelics"
 ---
@@ -22,7 +22,7 @@ As stated in the first part, *Acid* uses a simplified form of HTML, namely Markd
 
 ## Managing layouts
 
-Writing content is good and nice but if one doesn't set how the content is supposed to be rendered on the final blog website, the content can be as stellar as it likes. How the blog website looks in the end is dictated by so-called "Liquid" templates. These templates are files with HTML code inside them but also "Liquid" statements. These statements are place-holders for certain pieces of content. When you make a new piece of content, you specify what sort of layout you would like to use for that content. The layout is specified in the *"frontmatter"* of your Markdown content. These layouts can be in their own directory in an *Acid* site or you could specify in your site configuration file that you would like to use layouts that someone else has written. These layouts by someone else are called "third-party themes" in the *Acid* terminology.
+Writing content is good and nice but if one doesn't set how the content is supposed to be rendered on the final blog website, the content can be as stellar as it likes. How the blog website looks in the end is dictated by so-called *"Liquid"* templates. These templates are files with HTML code inside them but also *"Liquid"* statements. These statements are place-holders for certain pieces of content. When you make a new piece of content, you specify what sort of layout you would like to use for that content. The layout is specified in the *"frontmatter"* of your Markdown content. These layouts can be in their own directory in an *Acid* site or you could specify in your site configuration file that you would like to use layouts that someone else has written. These layouts by someone else are called "third-party themes" in the *Acid* terminology.
 
 Great! Now you know how the content is retrieved and how the content is inserted into templates that give your blog website a certain look. What else is there?
 
