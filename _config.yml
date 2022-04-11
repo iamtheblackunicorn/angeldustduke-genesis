@@ -6,6 +6,7 @@ menuText: "Menu"
 url: "https://angeldustduke.art"
 baseurl: ""
 future: true
+footerText: "(C) 2021 ANGELDUST DUKE"
 copiedText: "Link copied!"
 specialEditonString: "SPECIAL EDITION"
 avatar: "/assets/images/logo/logo.png"

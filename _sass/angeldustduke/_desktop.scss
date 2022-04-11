@@ -373,3 +373,27 @@ span.copyLink {
 span.copyLink:hover{
   color: $mainColor;
 }
+div.footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  width: 100vw;
+  padding: 30px;
+  background-color: $mainColor;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-top: 4px solid $accentColor;
+}
+
+p.footer {
+  font-weight:bolder;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: $accentColor;
+  font-family: $headingFont;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}

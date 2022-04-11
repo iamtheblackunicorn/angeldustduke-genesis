@@ -63,6 +63,7 @@ $ bundle exec jekyll serve # Or bundle exec jekyll build
     - `analyticsID`: Google Analytics ID, if you want to track the site's usage.
     - `bannerDescription`: The description of your site's banner. (This will appear on social media.)
     - `banner`: Your site's banner. This *has* to be fetched from a third-party server and *has* to be a `PNG`, otherwise your site might break.
+    - `footerText`: Text in the footer section.
     - `postedOnText`: Text to put below a post's title to tell readers when this post was updated last.
     - `year`: The current year.
     - `name`: Your site's name.
