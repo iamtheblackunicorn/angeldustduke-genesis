@@ -13,11 +13,20 @@ Licensed under the MIT license.
   button.nav {
     font-size: 25px;
   }
-  div.nav {
+  /*div.nav {
     width: 88vw;
   }
   a.nav {
     font-size: 20px;
+  }*/
+  ul.nav {
+    padding-top: 20vh;
+  }
+  li.nav {
+    padding-bottom: 10px;
+  }
+  a.nav {
+    font-size: 25px;
   }
   div.content {
     width: 80vw;
