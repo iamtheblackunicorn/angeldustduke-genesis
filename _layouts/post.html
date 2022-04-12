@@ -7,17 +7,14 @@
   <div class="content">
 
    <h2 class="title">{{ page.title }}</h2>
-
    <ul class="tags">
     {% for tag in page.tags %}
      <li class="tags">{{ tag }}</li>
     {% endfor %}
    </ul>
-
    {{ content }}
-   {% include share.html %}
   </div>
-  
+
   {% include javascript.html %}
  </body>
 </html>
