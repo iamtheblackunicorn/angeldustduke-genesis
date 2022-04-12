@@ -1,5 +1,5 @@
-<div class="nav" id="navDiv">
- <ul class="nav" id="navList">
+<div class="nav" id="nav">
+ <ul class="nav">
   {% for item in site.data.navigation %}
   <li class="nav"><a class="nav" href="{{ item.url | prepend: site.baseurl }}">{{ item.name }}</a></li>
   {% endfor %}
