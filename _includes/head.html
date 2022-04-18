@@ -40,10 +40,15 @@
  {% endif %}
  {% else %}
  {% endif %}
- <meta name="twitter:card" content="summary_large_image">
- <meta name="twitter:image:alt" content="{{ site.bannerDescription }}">
+ {% if page.layout != "post" %}
  <meta name="twitter:title" content="{{ site.name }}">
  <meta name="twitter:description" content="{{ site.description }}">
+ {% else %}
+ <meta name="twitter:title" content="{{ page.title }}">
+ <meta name="twitter:description" content="{{ page.description }}">
+ {% endif %}
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="twitter:image:alt" content="{{ site.bannerDescription }}">
  <meta property="og:image" content="{{ site.banner }}">
  <meta name="twitter:image" content="{{ site.banner }}">
  <meta property="og:image:type" content="image/png">
