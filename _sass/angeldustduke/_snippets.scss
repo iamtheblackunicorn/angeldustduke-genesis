@@ -91,4 +91,51 @@ function copyValue(elemID){
   window.clipboardData.setData('', document.getElementById(elemID).value);
   console.log(window.clipboardData);
 }
-*/
+div.nav {
+  border-radius: $stdBorderRadius;
+  display: none;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: $accentColor;
+  width: 73vw;
+}
+ul.nav {
+  list-style: none;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+li.nav {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+  font-family: $contentFont;
+  font-size: 25px;
+  padding-left: 5px;
+  padding-right: 0px;
+  text-align: center;
+}
+a.nav {
+  font-family: $contentFont;
+  font-size: 25px;
+  color: $mainColor;
+  transition-duration: 0.6s;
+  text-decoration: none;
+}
+a.nav:hover {
+  color: $hoverColor;
+}
+div.nav {
+  width: 88vw;
+}
+a.nav {
+  font-size: 20px;
+}*/
+
+Cargo Nord Building 7
+1300 Wien

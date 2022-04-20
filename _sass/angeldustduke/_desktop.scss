@@ -116,45 +116,6 @@ button.nav:hover {
   background-color: $bgColor;
   color: $accentColor;
 }
-/*div.nav {
-  border-radius: $stdBorderRadius;
-  display: none;
-  margin: 0 auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  background-color: $accentColor;
-  width: 73vw;
-}
-ul.nav {
-  list-style: none;
-  padding: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-li.nav {
-  display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin: 0;
-  font-family: $contentFont;
-  font-size: 25px;
-  padding-left: 5px;
-  padding-right: 0px;
-  text-align: center;
-}
-a.nav {
-  font-family: $contentFont;
-  font-size: 25px;
-  color: $mainColor;
-  transition-duration: 0.6s;
-  text-decoration: none;
-}
-a.nav:hover {
-  color: $hoverColor;
-}*/
 div.nav {
   top: 0;
   right: 0;
@@ -339,19 +300,18 @@ li {
   padding-bottom: 10px;
   color: $accentColor;
 }
-
 img {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
   width: 99%;
   height: 350px;
   padding: 0;
   object-fit: cover;
   border-radius: 0px;
-  border: 5px solid $accentColor;
-  box-shadow: 3px 3px 3px $accentColor;
+  border: none;
+  box-shadow: 1px 2px 15px $accentColor;
 }
 
 ul.specialEd {
@@ -425,7 +385,6 @@ div.footer {
   border-right: none;
   border-top: 4px solid $accentColor;
 }
-
 p.footer {
   font-weight:bolder;
   font-size: 30px;
