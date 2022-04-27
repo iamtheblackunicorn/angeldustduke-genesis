@@ -68,6 +68,7 @@ $ bundle exec jekyll serve # Or bundle exec jekyll build
     - `year`: The current year.
     - `name`: Your site's name.
     - `owner`: Your name.
+    - `logoDescription`: The description or name of your site's logo.
     - `menuText`: Text for the link to open the navigation menu.
     - `avatar`: URL to your site's avatar. ("Profile Picture".)
     - `postsExist`: Set this to `true` or `false` depending on wheter your site has posts or not.
