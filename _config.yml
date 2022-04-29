@@ -6,9 +6,27 @@ menuText: "Menu"
 url: "https://angeldustduke.art"
 baseurl: ""
 future: true
+
 bg_image: "/assets/images/background/bg.svg"
 uses_bg_image: true
 uses_animation: false
+mainColor: "#FFFFFF"
+accentColor: "#000000"
+hoverColor: "#808080"
+headingFont: "Triest"
+headingFontUrl: "https://blckunicorn.art/assets/fonts/Triest.ttf"
+contentFont: "Schnyder"
+contentFontUrl: "https://blckunicorn.art/assets/fonts/Schnyder.ttf"
+bgColor: "#FFF"
+waveColorOne: "7C40FF"
+waveColorTwo: "#FF7BAC"
+tertiaryFont: "Mono"
+tertiaryFontUrl: "https://blckunicorn.art/assets/fonts/Mono.ttf"
+codeColor: "#2B1F33"
+copyFieldColor: "#282C33"
+mainHeadingFont: "Hellraiser"
+mainHeadingFontUrl: "https://blckunicorn.art/assets/fonts/Hellraiser.ttf"
+
 logoDescription: "Diavorella"
 footerText: "(C) 2021 ANGELDUST DUKE"
 copiedText: "Link copied!"

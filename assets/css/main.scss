@@ -4,18 +4,40 @@
 ANGELDUSTDUKE by Alexander Abraham, "The Black Unicorn".
 Licensed under the MIT license.
 */
+$mainColor: {{ site.mainColor }};
+$accentColor: {{ site.accentColor }};
+$hoverColor: {{ site.hoverColor }};
+$bgColor: {{ site.bgColor }};
+$waveColorOne: {{ site.waveColorOne }};
+$waveColorTwo: {{ site.waveColorTwo }};
+$codeColor: {{ site.codeColor }};
+$copyFieldColor: {{ site.copyFieldColor }};
 $uses_animation: {{ site.uses_animation }};
+
+$headingFont: "{{ site.headingFont }}";
+$headingFontUrl: "{{ site.headingFontUrl }}";
+$contentFont: "{{ site.contentFont }}";
+$contentFontUrl: "{{ site.contentFontUrl }}";
+$tertiaryFont: "{{ site.tertiaryFont }}";
+$tertiaryFontUrl: "{{ site.tertiaryFontUrl }}";
+$mainHeadingFont: "{{ site.mainHeadingFont }}";
+$mainHeadingFontUrl: "{{ site.mainHeadingFontUrl }}";
+
 @font-face {
-  font-family: 'Triest';
-  src: url('https://blckunicorn.art/assets/fonts/Triest.ttf') format('truetype');
+  font-family: "#{$contentFont}";
+  src: url("#{$contentFontUrl}") format('truetype');
 }
 @font-face {
-  font-family: 'Schnyder';
-  src: url('https://blckunicorn.art/assets/fonts/Schnyder.ttf') format('truetype');
+  font-family: "#{$headingFont}";
+  src: url("#{$headingFontUrl}") format('truetype');
 }
 @font-face {
-  font-family: 'Hellraiser';
-  src: url('https://blckunicorn.art/assets/fonts/Hellraiser.ttf') format('truetype');
+  font-family: "#{$mainHeadingFont}";
+  src: url("#{$mainHeadingFontUrl}") format('truetype');
+}
+@font-face {
+  font-family: "#{$tertiaryFont}";
+  src: url("#{$tertiaryFontUrl}") format('truetype');
 }
 @charset 'utf-8';
 @import 'angeldustduke';

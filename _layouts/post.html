@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  {% include head.html %}
- {% if site.uses_bg_image == "true" %}
+ {% if site.uses_bg_image == true %}
  <body style="background-image:url('{{ site.bg_image | prepend: site.baseurl }}');">
  {% else %}
  <body>
