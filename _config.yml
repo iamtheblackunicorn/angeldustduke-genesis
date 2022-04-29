@@ -6,6 +6,9 @@ menuText: "Menu"
 url: "https://angeldustduke.art"
 baseurl: ""
 future: true
+bg_image: "/assets/images/background/bg.svg"
+uses_bg_image: true
+uses_animation: false
 logoDescription: "Diavorella"
 footerText: "(C) 2021 ANGELDUST DUKE"
 copiedText: "Link copied!"

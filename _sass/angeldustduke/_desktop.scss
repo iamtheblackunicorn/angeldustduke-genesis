@@ -23,47 +23,65 @@ Licensed under the MIT license.
   50%{background-position:100% 19%}
   100%{background-position:0% 82%}
 }
-html,body {
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: $bgColor;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  box-sizing: border-box;
-  overflow: scroll;
-  min-height: 100%;
-  background: repeating-linear-gradient(
-    135deg,
-    $waveColorOne,
-    $waveColorOne
-    20px,
-    $waveColorTwo
-    20px,
-    $waveColorTwo
-    30px
-  );
-  background: linear-gradient(
-    124deg,
-    $waveColorOne,
-    $waveColorTwo,
-    $waveColorOne,
-    $waveColorTwo,
-    $waveColorOne,
-    $waveColorTwo,
-    $waveColorOne,
-    $waveColorTwo,
-    $waveColorOne
-  );
-  background-size: 1800% 1800%;
-  -webkit-animation: rainbow 15s ease infinite;
-  -z-animation: rainbow 15s ease infinite;
-  -o-animation: rainbow 15s ease infinite;
-  animation: rainbow 15s ease infinite;
-  transition: 200ms ease;
+
+@if ($uses_animation == false) {
+  html,body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    overflow: scroll;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@else {
+  html,body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: $bgColor;
+    background: repeating-linear-gradient(
+      135deg,
+      $waveColorOne,
+      $waveColorOne
+      20px,
+      $waveColorTwo
+      20px,
+      $waveColorTwo
+      30px
+    );
+    background: linear-gradient(
+      124deg,
+      $waveColorOne,
+      $waveColorTwo,
+      $waveColorOne,
+      $waveColorTwo,
+      $waveColorOne,
+      $waveColorTwo,
+      $waveColorOne,
+      $waveColorTwo,
+      $waveColorOne
+    );
+    background-size: 1800% 1800%;
+    -webkit-animation: rainbow 15s ease infinite;
+    -z-animation: rainbow 15s ease infinite;
+    -o-animation: rainbow 15s ease infinite;
+    animation: rainbow 15s ease infinite;
+    transition: 200ms ease;
+  }
 }
 img.profile_pic {
   width: 250px;

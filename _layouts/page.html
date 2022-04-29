@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
  {% include head.html %}
+ {% if site.uses_bg_image == "true" %}
+ <body style="background-image:url('{{ site.bg_image | prepend: site.baseurl }}');">
+ {% else %}
  <body>
+ {% endif %}
   {% include heading.html %}
   {% include nav.html %}
   <div class="content">
    <h2 class="title">{{ page.title }}</h2>
     {{ content }}
   </div>
-  
+
   {% include javascript.html %}
  </body>
 </html>
