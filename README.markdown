@@ -1,6 +1,10 @@
+<style>
+ @font-face{font-family:"MC";src:url("https://blckunicorn.art/assets/fonts/MC.ttf") format("truetype")}
+</style>
 <p align="center">
  <img src="https://angeldustduke.art/assets/images/banner/banner.png"/>
 </p>
+<h1>ÄNGËLDÜST DÜKË</h1>
 
 # Angeldust Duke :unicorn: :fire: :pill:
 
