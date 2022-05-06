@@ -1,6 +1,6 @@
 analyticsID: "G-VSFSCDCWCB"
 year: "2022"
-name: "ÄNGËLDÜST DÜKË"
+name: "Angeldust Duke"
 
 owner: "Alexander Abraham"
 menuText: "Menu"
@@ -26,11 +26,11 @@ tertiaryFontUrl: "https://blckunicorn.art/assets/fonts/Mono.ttf"
 codeColor: "#2B1F33"
 copyFieldColor: "#282C33"
 
-mainHeadingFont: "MC"
-mainHeadingFontUrl: "https://blckunicorn.art/assets/fonts/MC.ttf"
+mainHeadingFont: "Hellraiser"
+mainHeadingFontUrl: "https://blckunicorn.art/assets/fonts/Hellraiser.ttf"
 
-# was -> {mainHeadingFont: "Hellraiser"}
-# was -> {mainHeadingFontUrl: "https://blckunicorn.art/assets/fonts/Hellraiser.ttf"}
+# was -> {mainHeadingFont: "MC"}
+# was -> {mainHeadingFontUrl: "https://blckunicorn.art/assets/fonts/MC.ttf"}
 # was -> {name: "Angeldust Duke"}
 
 logoDescription: "Diavorella"
