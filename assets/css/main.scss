@@ -14,6 +14,8 @@ $codeColor: {{ site.codeColor }};
 $copyFieldColor: {{ site.copyFieldColor }};
 $uses_animation: {{ site.uses_animation }};
 
+$mottoFont: "{{ site.mottoFont }}";
+$mottoFontUrl: "{{ site.mottoFontUrl }}";
 $headingFont: "{{ site.headingFont }}";
 $headingFontUrl: "{{ site.headingFontUrl }}";
 $contentFont: "{{ site.contentFont }}";
@@ -38,6 +40,10 @@ $mainHeadingFontUrl: "{{ site.mainHeadingFontUrl }}";
 @font-face {
   font-family: "#{$tertiaryFont}";
   src: url("#{$tertiaryFontUrl}") format('truetype');
+}
+@font-face {
+  font-family: "#{$mottoFont}";
+  src: url("#{$mottoFontUrl}") format('truetype');
 }
 @charset 'utf-8';
 @import 'angeldustduke';

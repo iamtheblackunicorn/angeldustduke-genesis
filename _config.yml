@@ -7,7 +7,7 @@ menuText: "Menu"
 url: "https://angeldustduke.art"
 baseurl: ""
 future: true
-
+motto: "Love is the message."
 bg_image: "/assets/images/background/bg.svg"
 uses_bg_image: true
 uses_animation: false
@@ -25,7 +25,8 @@ tertiaryFont: "Mono"
 tertiaryFontUrl: "https://blckunicorn.art/assets/fonts/Mono.ttf"
 codeColor: "#2B1F33"
 copyFieldColor: "#282C33"
-
+mottoFont: "LSD"
+mottoFontUrl: "https://blckunicorn.art/assets/fonts/LSD.ttf"
 mainHeadingFont: "Hellraiser"
 mainHeadingFontUrl: "https://blckunicorn.art/assets/fonts/Hellraiser.ttf"
 
