@@ -1,12 +1,12 @@
-# Angeldust Duke  ARCHIVED :unicorn: :fire: :pill:
+# Angeldust Duke  Genesis :unicorn:
 
-***Angeldust Duke: a bad b\*tch, a creative soul, and eccentric as f\*ck. :unicorn: :fire: :pill:***
+***Angeldust Duke Genesis :unicorn:***
 
-![GitHub CI](https://github.com/iamtheblackunicorn/angeldustduke-archived/actions/workflows/jekyll.yml/badge.svg)
+![GitHub CI](https://github.com/iamtheblackunicorn/angeldustduke-genesis/actions/workflows/jekyll.yml/badge.svg)
 
 ## About :books:
 
-This is my old Angeldust Duke site. This repo's code is archived.
+This is my old Angeldust Duke site. This repo's code has been decomissioned. The actual site can be found [here](https://angeldustduke.art).
 
 ## Features :test_tube:
 
@@ -33,11 +33,11 @@ If you want to use this theme for your own site, here's what you need to do.
   - Half an hour.
 - 2.) Fetch this website's source code:
 ```bash
-$ git clone https://your_github_token@github.com/iamtheblackunicorn/angeldustduke-archived.git
+$ git clone https://your_github_token@github.com/iamtheblackunicorn/angeldustduke-genesis.git
 ```
 - 3.) Change directory into the source's root directory:
 ```bash
-$ cd angeldustduke-archived
+$ cd angeldustduke-genesis
 ```
 - 4.) Install the dependencies:
 ```bash
@@ -117,5 +117,5 @@ $ bundle exec jekyll serve # Or bundle exec jekyll build
       - 3.) Enjoy. :)
 
 ## Note :scroll:
-- *Angeldust Duke ARCHIVED :unicorn: :fire: :pill:* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn" :unicorn:*
+- *Angeldust Duke Genesis :unicorn:* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn" :unicorn:*
 - Licensed under the MIT license.
