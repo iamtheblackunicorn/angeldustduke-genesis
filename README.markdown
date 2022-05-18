@@ -1,16 +1,12 @@
-<p align="center">
- <img src="https://angeldustduke.art/assets/images/banner/banner.png"/>
-</p>
-
-# Angeldust Duke :unicorn: :fire: :pill:
+# Angeldust Duke  ARCHIVED :unicorn: :fire: :pill:
 
 ***Angeldust Duke: a bad b\*tch, a creative soul, and eccentric as f\*ck. :unicorn: :fire: :pill:***
 
-![GitHub CI](https://github.com/iamtheblackunicorn/angeldustduke/actions/workflows/jekyll.yml/badge.svg)
+![GitHub CI](https://github.com/iamtheblackunicorn/angeldustduke-archived/actions/workflows/jekyll.yml/badge.svg)
 
 ## About :books:
 
-Welcome to the Angeldust Duke's website. I will be filling this website as time goes along. For now this is all you need know: Mr. Angeldust Duke is: a bad b\*tch, a creative soul, and eccentric as f\*ck. This website is one of many experiments, enjoy! :)
+This is my old Angeldust Duke site. This repo's code is archived.
 
 ## Features :test_tube:
 
