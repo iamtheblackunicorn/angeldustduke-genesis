@@ -20,12 +20,6 @@ This is my old Angeldust Duke site. This repo's code is archived.
 
 ## Usage :books:
 
-### Passive
-
-If you want to "just" "use" this site, view it here (I own the domain.): [angeldustduke.art](https://angeldustduke.art).
-
-### Active
-
 Since this website relies on the Jekyll CMS to do all the heavy lifting, it is, in effect, also a Jekyll theme.
 If you want to use this theme for your own site, here's what you need to do.
 
@@ -39,11 +33,11 @@ If you want to use this theme for your own site, here's what you need to do.
   - Half an hour.
 - 2.) Fetch this website's source code:
 ```bash
-$ git clone https://your_github_token@github.com/iamtheblackunicorn/angeldustduke.git
+$ git clone https://your_github_token@github.com/iamtheblackunicorn/angeldustduke-archived.git
 ```
 - 3.) Change directory into the source's root directory:
 ```bash
-$ cd angeldustduke
+$ cd angeldustduke-archived
 ```
 - 4.) Install the dependencies:
 ```bash
@@ -123,5 +117,5 @@ $ bundle exec jekyll serve # Or bundle exec jekyll build
       - 3.) Enjoy. :)
 
 ## Note :scroll:
-- *Angeldust Duke :unicorn: :fire: :pill:* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn" :unicorn:*
+- *Angeldust Duke ARCHIVED :unicorn: :fire: :pill:* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn" :unicorn:*
 - Licensed under the MIT license.
