@@ -4,8 +4,8 @@ name: "Angeldust Duke"
 
 owner: "Alexander Abraham"
 menuText: "Menu"
-url: "https://angeldustduke.art"
-baseurl: ""
+url: "https://blckunicorn.art"
+baseurl: "/angeldustduke-archived"
 future: true
 motto: "Love is the message."
 bg_image: "/assets/images/background/bg.svg"
@@ -49,7 +49,7 @@ noPostTitle: "No posts yet!"
 noPostUrl: "https://twitter.com/angeldustduke"
 viewNoPostUrl: "Visit"
 keywords: "developer, code, flutter, dart, rust lang, blogging, art, python, compiler"
-iconsPresent: true
+iconsPresent: false
 iconUrlIsAbsolute: false
 57x57: "/assets/images/favicons/apple-icon-57x57.png"
 60x60: "/assets/images/favicons/apple-icon-60x60.png"
