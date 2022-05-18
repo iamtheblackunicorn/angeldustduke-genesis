@@ -5,10 +5,10 @@ title: "Decomissioned"
 description: "This site has been decomissioned and has moved."
 show: true
 isSpecial: false
-tags: "mystery ghost story love death lesbian"
+tags: "old decomission overhaul"
 ---
 
-## Out of decomission
+## Out of Comission
 
 This has site has been decomissioned and has moved to a new repository with a new look.
 The source for this site can be found [here](https://github.com/iamtheblackunicorn/angeldustduke-genesis) and the new site can be found [here](https://angeldustduke.art).
